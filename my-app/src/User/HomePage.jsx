@@ -3,13 +3,13 @@ import "./style.css";
 
 const HomePage = () => {
 
-    const [email, seEmail]= useState("");
+    const [email, setEmail]= useState("");
     const [password, setPassword]= useState("");
 
 
     const handleSubmit = (e) => {
-        e.priventDefault();
-        console.log("submit");
+        e.preventDefault();
+        console.log("submit", { email, password});
     }
     return  (
         
@@ -18,12 +18,14 @@ const HomePage = () => {
             <form className="form" onSubmit={handleSubmit}>
                 <div className="field">
                     <label htmlFor="email">Email</label>
-                    <input type="email" name="email" id="email" />
+                    <input type="email" name="email" id="email" value={email} 
+                    onChange={(e) => setEmail(e.target.value)} />
 
                 </div>
                 <div className="field">
                     <label htmlFor="password">Senha</label>
-                    <input type="password" name="password" id="password" />
+                    <input type="password" name="password" id="password" value={password}
+                    onChange={(e) => setPassword(e.target.value)}  />
 
                 </div>
                 <div className="actions">
