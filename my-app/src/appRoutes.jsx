@@ -5,3 +5,15 @@ import {
     Navigate 
 
 } from "react-router-dom";
+
+const appRoutes = () => {
+    return(
+        <Router>
+            <Routes>
+
+            </Routes>
+        </Router>
+    )
+}
+
+export default appRoutes;
