@@ -5,10 +5,11 @@
     justify-content: center;
     min-height: 100vh;
     padding: 0 2rem;
+    background-color: #FF8C00;
 }
 
 #login .form{
-    background-color: #f1f1f1;
+    background-color:#FFFFFF;
     width: 100%;
     max-width: 480px;
     padding: 0.5rem;
