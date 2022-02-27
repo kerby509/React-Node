@@ -3,7 +3,8 @@ import './Login.css';
 
 
 const Login = () => {
-    return   <h1>pagina inicial</h1>
+    return  <div>pagina inicial</div>
+     
     
 }
 
