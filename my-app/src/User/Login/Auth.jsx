@@ -17,7 +17,7 @@ export const AuthProvider = ({children}) => {
             setUser({ id:"123", email});
             navigate("/Login");
         }else{
-            console.log("Senha invalida")
+            console.log("Senha invalida");
         }
     };
     const logout = () => {
