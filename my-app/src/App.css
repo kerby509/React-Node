@@ -1,0 +1,11 @@
+
+h1{
+   color:#FF8C00;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    /* background-image: url("logo.jpeg"); */
+    background-color: aqua;
+}
