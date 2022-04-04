@@ -6,11 +6,12 @@ const Login = () => {
     return (
     <div className="Login">
         <img src={"./logo.jpeg"}/>
-            <div className="menu">
+            <div className="Login">
 
                 <div className="logo">
                 <h1>Condomino Residencial</h1>
                     <h1>da Efapi Chapeco</h1>
+               
                    
                     <div>
                         <p className="par"> O Condomínio Residencial da Efapi está localizado a leste de Chapeco, no atual Setor 
@@ -27,6 +28,9 @@ const Login = () => {
                       da Fazenda Taboquinha foi negociada com o Governo, enquanto que vários quinhões foram mantidos,
                        integralmente, sob o domínio e posse de seus proprietários.</p>
                     </div>
+
+
+                    
 
 
                    
