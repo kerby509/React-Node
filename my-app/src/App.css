@@ -50,3 +50,11 @@ nav a:hover{ /* dar color quando passa o maouse acima*/
     clear: left;
 
 }
+
+.principal{
+    padding: 3em 0;
+    background: #FFFFFF;
+}
+.principal p{
+    margin: 0 0 1em;
+}
