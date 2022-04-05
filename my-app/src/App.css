@@ -37,3 +37,16 @@ nav a  {
     font-size: 22px;
     text-decoration: none;
 }
+
+nav a:hover{ /* dar color quando passa o maouse acima*/
+    color:#C78C19;
+    text-decoration: underline;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+
+}
