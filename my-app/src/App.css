@@ -1,1 +1,25 @@
 
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+.opcao h1{
+    width: 50px;
+    
+}
+
+.search {
+    padding: 20px;
+    font-size: medium;
+    float: right;
+    /*font-weight: bold;
+    color: #000000;
+    text-decoration:none;*/
+    
+}
+
+nav {
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
