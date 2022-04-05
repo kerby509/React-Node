@@ -6,8 +6,9 @@ h1{
 }
 
 body{
-    /* background-image: url("logo.jpeg"); */
+    /* background-image: url("fundo.jpeg"); */
     background-color: aqua;
+    text-align: center;
 }
 
 .Menu {
