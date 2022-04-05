@@ -30,3 +30,10 @@ nav li {
     float: right;
 
 }
+nav a  {
+    text-transform: uppercase;  /*colocar em majiscule*/
+    color:#000000;
+    font-weight: bold; /*colocar em negrito*/
+    font-size: 22px;
+    text-decoration: none;
+}
