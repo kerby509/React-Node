@@ -58,3 +58,30 @@ nav a:hover{ /* dar color quando passa o maouse acima*/
 .principal p{
     margin: 0 0 1em;
 }
+.principal strong {
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+
+.image-beneficios{
+    width: 50%;
+    opacity: 1;
+    transition: 300ms;
+}
+.image-beneficios:hover{
+    opacity: 0.6;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background: #888888;
+    margin: 0 auto;
+}
+.itens {
+    line-height: 1.5;
+}
+.itens:before{
+    content: "✸";
+}
