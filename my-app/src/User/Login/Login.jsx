@@ -2,6 +2,7 @@ import React from "react";
 //import './Login.css';
 import logo from './logo.jpeg';
 import fundo from './fundo.jpeg';
+import beneficios from './beneficios.jpeg';
 
 
 
@@ -94,6 +95,10 @@ const Login = () => {
 
                     <li class="itens">dois garagens por apartamento</li>
                 </ul>
+                
+                <img  src={beneficios} class="image-beneficios" ></img >
+                
+
 
          </div>
 
@@ -118,7 +123,7 @@ const Login = () => {
                 <div class="footer-center">
 				<div>
 					<i class="fa fa-map-marker"></i>
-					<p><span>1049 Rua vinte e cinco de julho </span> Efapi, Chapeco</p>
+					<p><span> Rua vinte e cinco de julho </span> Efapi, Chapeco</p>
 				</div>
 				<div>
 					<i class="fa fa-phone"></i>
